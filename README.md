@@ -1,11 +1,14 @@
 # uoftwics.github.io
-### U of T Women in Computer Science Website
+
+U of T Women in Computer Science Website
 
 ## SETUP
 
-Be sure to install hugo!
+Be sure to install [hugo](https://gohugo.io/)!
+
 ```bash
-git submodule add https://github.com/mobybit/hugo-natrium-theme themes/hugo-natrium-theme
+git submodule init
+git submodule update
 hugo server --disableFastRender
 ```
 
